@@ -3,4 +3,5 @@ const greeting = (someone) => {
   return `hello, ${someone}`;
 };
 
+console.log(null);
 module.exports = greeting;
