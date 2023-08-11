@@ -1,7 +1,3 @@
-const greeting = (someone) => {
-  if (!someone) return "hello, guest";
-  return `hello, ${someone}`;
-};
-
-console.log(null);
+'use strict';
+const greeting = (someone) => (someone ? `hello, ${someone}` : `hello, guest`);
 module.exports = greeting;
